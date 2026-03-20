@@ -25,7 +25,7 @@ su frecuencia fundamental, frecuencia media, brillo e intensidad.
 ![Diagrama de flujo del código](Diagrama.jpeg)
 
 #### Resultados obtenidos
-<img src="ruta/de/tu/imagen.png" width="300">
+
 |Archivo     | F0 (Hz) | Frec media (Hz) | Brillo (Hz) | Energia (J)|
 |------------|---------|-----------------|-------------|--------|
 |hombre1.wav | 192.06  | 475.73          | 475.73      | 1965.56|
@@ -34,6 +34,8 @@ su frecuencia fundamental, frecuencia media, brillo e intensidad.
 |mujer1.wav  | 69.49   | 454.73          | 454.73      | 4512.75|
 |mujer2.wav  | 180.05  | 544.49          | 544.49      | 2111.32|
 |mujer3.wav  | 180.08  | 475.11          | 475.11      | 3594.31|
+
+<img src="ruta/de/tu/imagen.png" width="300">
 
 ```python
 # Frecuencia fundamental
