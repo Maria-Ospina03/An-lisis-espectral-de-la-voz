@@ -31,6 +31,7 @@ su frecuencia fundamental, frecuencia media, brillo e intensidad.
 |mujer1.wav  | 69.49   | 454.73          | 454.73      | 4512.75|
 |mujer2.wav  | 180.05  | 544.49          | 544.49      | 2111.32|
 |mujer3.wav  | 180.08  | 475.11          | 475.11      | 3594.31|
+![Diagrama de flujo del código]
 
 ### Parte B: Medición de Estabilidad Vocal (Jitter y Shimmer)
 Para profundizar en el análisis, se seleccionaron grabaciones representativas de cada género y se aplicó un filtro pasa-banda específico (80–400 Hz para hombres y 150–500 Hz para mujeres) 
