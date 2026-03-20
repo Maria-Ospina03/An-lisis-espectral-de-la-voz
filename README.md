@@ -33,7 +33,28 @@ su frecuencia fundamental, frecuencia media, brillo e intensidad.
 |mujer3.wav  | 180.08  | 475.11          | 475.11      | 3594.31|
 
 ```python
+# Frecuencia fundamental
+    
+    # Buscar picos en el espectro
+    peaks, _ = find_peaks(mag_pos, height=np.max(mag_pos)*0.1)
+    
+    if len(peaks) > 0:
+        f0 = frec_pos[peaks[0]]
+    else:
+        f0 = 0
 
+    mask = (frec_pos >= 50) & (frec_pos <= 4000)
+    frec_pos = frec_pos[mask]
+    mag_pos = mag_pos[mask]
+    
+    # Frecuencia media    
+    frecuencia_media = np.sum(frec_pos * (mag_pos*2)) / np.sum(mag_pos*2)
+
+    # Brillo (centroide espectral)
+    brillo = frecuencia_media
+
+    # Energia de la señal
+    energia = np.sum(señal**2)
 ```
 
 ### Parte B: Medición de Estabilidad Vocal (Jitter y Shimmer)
