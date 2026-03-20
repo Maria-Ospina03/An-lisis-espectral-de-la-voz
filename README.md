@@ -85,7 +85,7 @@ Para profundizar en el análisis, se seleccionaron grabaciones representativas d
 con el fin de eliminar ruidos no deseados. Se procedió a detectar los periodos de vibración y los picos de amplitud en cada ciclo para calcular el jitter relativo y el shimmer relativo. 
 Los resultados se compararon con los rangos típicos para voces sanas (≤1% para jitter y ≤3–5% para shimmer), permitiendo evaluar la estabilidad de la voz de los participantes.
 
-Para lo anterior se utilizo la siguiente seccion de codigo
+Para lo anterior se utilizo la siguiente sección de codigo
 
 ```python
 
@@ -192,6 +192,8 @@ Dandonos resultados tal que asi:
 |mujer2.wav    | 0.000047  | 1.0716            | 0.004804         | 4.0627|
 |mujer3.wav    | 0.000061  | 1.3757            | 0.006769         | 4.2687|
 
+La variacion presentada tanto en el shimmer relativo como en el jitter relativo no se atribuye a que las personas estuvieran enfermas sino mas a factores de la toma de datos como el volumen de la voz, la vocalización de las palabras y que tan cerca estaban al microfono afecto en el resultado final.
+
 ### Parte C: Análisis comparativo y conclusiones
 - Se evidencia que los hombres presentan una frecuencia fundamental entre 97,38 Hz y 126,31 Hz, mientras que las mujeres se encuentran en un rango cercano a los 180 Hz. Esto concuerda con la literatura, que indica que las voces masculinas suelen tener una frecuencia más baja debido a la fisiología de las cuerdas vocales, las cuales son más largas que las femeninas, lo que reduce la frecuencia de vibración y genera sonidos más graves. Además, los órganos de fonación, resonancia y articulación son, en promedio, de mayor tamaño en los hombres, actuando como una caja de resonancia más amplia que favorece la amplificación de las frecuencias bajas.
   
@@ -202,11 +204,6 @@ Dandonos resultados tal que asi:
 - El jitter y el shimmer son medidas de inestabilidad en las señales periódicas de la voz, funcionan como indicadoes objetivos de la calidad de la vibración de las cuerdas vocales. El jitter es la variación de la frecuencia ciclo a ciclo, un jitter elevado se asocia con una falta de control en la vibración de las cuerdas vocales, y el shimmer es la variación de amplitud (volumen) ciclo a ciclo.
 Ambas inestabilidades son causadas por una vibración irregular y el paciente o el médico las perciben auditivamente como aspereza, gravedad o temblor en la voz. Además estas medidas son fundamentales en el procesamiento de señales biomédicas para la detección de patologías vocales y la evaluación del estado del paciente
 
-
-
-```python
-
-```
 
 
 
