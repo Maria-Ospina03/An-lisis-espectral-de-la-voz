@@ -25,6 +25,7 @@ su frecuencia fundamental, frecuencia media, brillo e intensidad.
 ![Diagrama de flujo del código](Diagrama.jpeg)
 
 #### Resultados obtenidos
+<img src="ruta/de/tu/imagen.png" width="300">
 |Archivo     | F0 (Hz) | Frec media (Hz) | Brillo (Hz) | Energia (J)|
 |------------|---------|-----------------|-------------|--------|
 |hombre1.wav | 192.06  | 475.73          | 475.73      | 1965.56|
@@ -71,7 +72,8 @@ Los resultados se compararon con los rangos típicos para voces sanas (≤1% par
 
 - Las mujeres presentan un brillo mayor en comparación con los hombres. Un centroide espectral más alto se traduce en un timbre percibido como más agudo, lo cual es un rasgo característico de la voz femenina.
 
-- El jitter y el shimmer son medidas de inestabilidad en las señales periódicas de la voz, funcionan como indicadoes objetivos de la calidad de la vibración de las cuerdas vocales. El jitter es la variación de la frecuencia ciclo a ciclo, un jitter elevado se asocia con una falta de control en la vibración 
+- El jitter y el shimmer son medidas de inestabilidad en las señales periódicas de la voz, funcionan como indicadoes objetivos de la calidad de la vibración de las cuerdas vocales. El jitter es la variación de la frecuencia ciclo a ciclo, un jitter elevado se asocia con una falta de control en la vibración de las cuerdas vocales, y el shimmer es la variación de amplitud (volumen) ciclo a ciclo.
+Ambas inestabilidades son causadas por una vibración irregular y el paciente o el médico las perciben auditivamente como aspereza, gravedad o temblor en la voz. Además estas medidas son fundamentales en el procesamiento de señales biomédicas para la detección de patologías vocales y la evaluación del estado del paciente
 
 
 
