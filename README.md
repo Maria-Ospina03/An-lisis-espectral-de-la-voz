@@ -204,8 +204,10 @@ La variacion presentada tanto en el shimmer relativo como en el jitter relativo 
 - El jitter y el shimmer son medidas de inestabilidad en las señales periódicas de la voz, funcionan como indicadoes objetivos de la calidad de la vibración de las cuerdas vocales. El jitter es la variación de la frecuencia ciclo a ciclo, un jitter elevado se asocia con una falta de control en la vibración de las cuerdas vocales, y el shimmer es la variación de amplitud (volumen) ciclo a ciclo.
 Ambas inestabilidades son causadas por una vibración irregular y el paciente o el médico las perciben auditivamente como aspereza, gravedad o temblor en la voz. Además estas medidas son fundamentales en el procesamiento de señales biomédicas para la detección de patologías vocales y la evaluación del estado del paciente
 
-
-
-
+## Referenciación
+[1] O. Charlot, “Aparato fonador humano: partes y funciones,” Voz Viva, Sep. 04, 2025. https://www.vozviva.es/aparato-fonador-humano-partes/
+[2] “Aparato vocal: qué es y definición médica | Diccionario CUN,” https://www.cun.es. https://www.cun.es/diccionario-medico/terminos/aparato-vocal
+[3] S. Chen et al., “Hearing the physical condition: The relationship between sexually dimorphic vocal traits and underlying physiology,” Frontiers in Psychology, vol. 13, p. 983688, Nov. 2022, doi: 10.3389/fpsyg.2022.983688.
+[4] Crónica Viva: noticias actualizadas del Perú y el mundo. Medio de comunicación digital de la Asociación Nacional de Periodistas del Perú (ANP), “¿Qué factores nos explican las diferencias que existen entre la voz masculina y la femenina? » Crónica Viva,” May 05, 2025. https://www.cronicaviva.com.pe/anatomia-y-cultura-por-que-difieren-las-voces-de-los-hombres-y-las-mujeres/
 
 </div>
