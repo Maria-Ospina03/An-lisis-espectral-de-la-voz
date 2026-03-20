@@ -192,7 +192,6 @@ Dandonos resultados tal que asi:
 |mujer2.wav    | 0.000047  | 1.0716            | 0.004804         | 4.0627|
 |mujer3.wav    | 0.000061  | 1.3757            | 0.006769         | 4.2687|
 
-La variacion presentada tanto en el shimmer relativo como en el jitter relativo no se atribuye a que las personas estuvieran enfermas o al ruido del ambiente sino mas a factores de la toma de datos como el volumen de la voz, la vocalización de las palabras y que tan cerca estaban al microfono, fueron los que afectaron en el resultado final esto se comprueba porque los audios de las mujeres 2 y 3 se hicieron de manera mas controlada y con una voz mas estable dando asi los resultados esperados.
 
 ### Parte C: Análisis comparativo y conclusiones
 - Se evidencia que los hombres presentan una frecuencia fundamental entre 97,38 Hz y 126,31 Hz, mientras que las mujeres se encuentran en un rango cercano a los 180 Hz. Esto concuerda con la literatura, que indica que las voces masculinas suelen tener una frecuencia más baja debido a la fisiología de las cuerdas vocales, las cuales son más largas que las femeninas, lo que reduce la frecuencia de vibración y genera sonidos más graves. Además, los órganos de fonación, resonancia y articulación son, en promedio, de mayor tamaño en los hombres, actuando como una caja de resonancia más amplia que favorece la amplificación de las frecuencias bajas.
@@ -203,6 +202,8 @@ La variacion presentada tanto en el shimmer relativo como en el jitter relativo 
 
 - El jitter y el shimmer son medidas de inestabilidad en las señales periódicas de la voz, funcionan como indicadoes objetivos de la calidad de la vibración de las cuerdas vocales. El jitter es la variación de la frecuencia ciclo a ciclo, un jitter elevado se asocia con una falta de control en la vibración de las cuerdas vocales, y el shimmer es la variación de amplitud (volumen) ciclo a ciclo.
 Ambas inestabilidades son causadas por una vibración irregular y el paciente o el médico las perciben auditivamente como aspereza, gravedad o temblor en la voz. Además estas medidas son fundamentales en el procesamiento de señales biomédicas para la detección de patologías vocales y la evaluación del estado del paciente
+
+- La variacion presentada tanto en el shimmer relativo como en el jitter relativo no se atribuye a que las personas estuvieran enfermas o al ruido del ambiente sino mas a factores de la toma de datos como el volumen de la voz, la vocalización de las palabras y que tan cerca estaban al microfono, fueron los que afectaron en el resultado final esto se comprueba porque los audios de las mujeres 2 y 3 se hicieron de manera mas controlada y con una voz mas estable dando asi los resultados esperados.
 
 ## Referenciación
 [1] O. Charlot, “Aparato fonador humano: partes y funciones,” Voz Viva, Sep. 04, 2025. https://www.vozviva.es/aparato-fonador-humano-partes/
