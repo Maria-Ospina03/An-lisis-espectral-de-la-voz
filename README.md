@@ -83,7 +83,103 @@ su frecuencia fundamental, frecuencia media, brillo e intensidad.
 ### Parte B: Medición de Estabilidad Vocal (Jitter y Shimmer)
 Para profundizar en el análisis, se seleccionaron grabaciones representativas de cada género y se aplicó un filtro pasa-banda específico (80–400 Hz para hombres y 150–500 Hz para mujeres) 
 con el fin de eliminar ruidos no deseados. Se procedió a detectar los periodos de vibración y los picos de amplitud en cada ciclo para calcular el jitter relativo y el shimmer relativo. 
-Los resultados se compararon con los rangos típicos para voces sanas (≤1% para jitter y ≤3–5% para shimmer), permitiendo evaluar la estabilidad de la voz de los participantes
+Los resultados se compararon con los rangos típicos para voces sanas (≤1% para jitter y ≤3–5% para shimmer), permitiendo evaluar la estabilidad de la voz de los participantes.
+
+Para lo anterior se utilizo la siguiente seccion de codigo
+
+```python
+
+    if "hombre" in archivo:
+        señal_filtrada = filtro_pasabanda(señal, fs, 80, 240)
+    else:
+        señal_filtrada = filtro_pasabanda(señal, fs, 165, 280)
+    # ==========================
+    # Tiempo
+    # ==========================
+    t = np.arange(len(señal_filtrada)) / fs
+    # ==========================
+    # Grafica señal filtrada
+    # ==========================
+    plt.figure()
+    plt.plot(t, señal_filtrada)
+    plt.title("Señal filtrada - " + archivo)
+    plt.xlabel("Tiempo (s)")
+    plt.ylabel("[-]")
+    plt.grid()
+    plt.show()
+    # ==========================
+    # Calculo de F0 con autocorrelación 
+    # ==========================
+
+    corr = np.correlate(señal_filtrada, señal_filtrada, mode='full')
+    corr = corr[len(corr)//2:]
+    corr[0] = 0
+
+    # Rango de voz humana
+    min_lag = int(fs / 400)
+    max_lag = int(fs / 80)
+
+    lag = np.argmax(corr[min_lag:max_lag]) + min_lag
+    T0 = lag / fs
+    f0 = 1 / T0
+    
+    # ==========================
+    # Detectar picos REALES en la señal
+    # ==========================
+
+    distance = int(0.8 * T0 * fs)
+    peaks, _ = find_peaks( señal_filtrada, height=0.1, distance=int(0.8 * T0 * fs), prominence=0.08 )
+    
+    # ==========================
+    # Grafica con picos
+    # ==========================
+
+    plt.figure()
+    plt.plot(t, señal_filtrada)
+    plt.plot(peaks/fs, señal_filtrada[peaks], "ro")
+    plt.title("Picos detectados - " + archivo)
+    plt.xlabel("Tiempo (s)")
+    plt.ylabel("[-]")
+    plt.grid()
+    plt.show()
+
+    # ==========================
+    # Calculo de periodos Ti
+    # ==========================
+    tiempos = peaks / fs
+    Ti = np.diff(tiempos)
+    
+    # Limpiar valores raros
+    Ti = Ti[(Ti > 0.5*T0) & (Ti < 1.5*T0)]
+    
+    if len(Ti) < 2:
+        print(archivo, "No suficientes ciclos")
+        continue
+
+    # ==========================
+    # JITTER ABSOLUTO Y RELATIVO 
+    # ==========================
+    
+    jitter_abs = np.mean(np.abs(np.diff(Ti)))
+    jitter_rel = (jitter_abs / np.mean(Ti)) * 100
+
+    # ==========================
+    # Amplitudes Ai
+    # ==========================
+
+    Ai = señal_filtrada[peaks]
+
+    # Limpiar amplitudes raras
+    Ai = Ai[(Ai > 0.5*np.mean(Ai)) & (Ai < 1.5*np.mean(Ai))]
+
+    if len(Ai) < 2:
+        print(archivo, "No suficientes picos")
+        continue
+
+    shimmer_abs = np.mean(np.abs(np.diff(Ai))) 
+    shimmer_rel = (shimmer_abs / np.mean(Ai)) * 100
+```
+
 
 Dandonos resultados tal que asi:
 
