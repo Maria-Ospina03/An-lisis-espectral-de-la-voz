@@ -69,7 +69,7 @@ Los resultados se compararon con los rangos típicos para voces sanas (≤1% par
 
 - Las mujeres presentan un brillo mayor en comparación con los hombres. Un centroide espectral más alto se traduce en un timbre percibido como más agudo, lo cual es un rasgo característico de la voz femenina.
 
-- 
+- El jitter y el shimmer son medidas de inestabilidad en las señales periódicas de la voz, funcionan como indicadoes objetivos de la calidad de la vibración de las cuerdas vocales. El jitter es la variación de la frecuencia ciclo a ciclo, un jitter elevado se asocia con una falta de control en la vibración 
 
 
 
