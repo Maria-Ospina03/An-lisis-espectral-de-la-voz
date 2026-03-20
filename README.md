@@ -26,6 +26,15 @@ su frecuencia fundamental, frecuencia media, brillo e intensidad.
 
 #### Resultados obtenidos
 
+#### Hombre 1
+<img src="H11.jpeg" width="350"><img src="H12.jpeg" width="350"> <img src="H13.jpeg" width="350"><img src="H14.jpeg" width="350">
+
+#### Hombre 2
+<img src="H21.jpeg" width="350"><img src="H22.jpeg" width="350"> <img src="H23.jpeg" width="350"><img src="H24.jpeg" width="350">
+
+#### Hombre 3
+<img src="H31.jpeg" width="350"><img src="H32.jpeg" width="350"> <img src="H33.jpeg" width="350"><img src="H34.jpeg" width="350">
+
 |Archivo     | F0 (Hz) | Frec media (Hz) | Brillo (Hz) | Energia (J)|
 |------------|---------|-----------------|-------------|--------|
 |hombre1.wav | 192.06  | 475.73          | 475.73      | 1965.56|
@@ -35,7 +44,6 @@ su frecuencia fundamental, frecuencia media, brillo e intensidad.
 |mujer2.wav  | 180.05  | 544.49          | 544.49      | 2111.32|
 |mujer3.wav  | 180.08  | 475.11          | 475.11      | 3594.31|
 
-<img src="M11.jpeg" width="200"> <img src="M12.jpeg" width="200"> <img src="M13.jpeg" width="200"> <img src="M14.jpeg" width="200">
 
 ```python
 # Frecuencia fundamental
