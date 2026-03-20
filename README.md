@@ -25,7 +25,7 @@ su frecuencia fundamental, frecuencia media, brillo e intensidad.
 #### Resultados obtenidos
 |Archivo     | F0 (Hz) | Frec media (Hz) | Brillo (Hz) | Energia (J)|
 |------------|---------|-----------------|-------------|--------|
-|hombre1.wav | 97.34   | 367.26          | 367.26      | 4165.74|
+|hombre1.wav | 192.06  | 475.73          | 475.73      | 1965.56|
 |hombre2.wav | 124.93  | 400.57          | 400.57      | 5776.35|
 |hombre3.wav | 126.31  | 370.71          | 370.71      | 6723.02|
 |mujer1.wav  | 69.49   | 454.73          | 454.73      | 4512.75|
@@ -41,9 +41,14 @@ Para profundizar en el análisis, se seleccionaron grabaciones representativas d
 con el fin de eliminar ruidos no deseados. Se procedió a detectar los periodos de vibración y los picos de amplitud en cada ciclo para calcular el jitter relativo y el shimmer relativo. 
 Los resultados se compararon con los rangos típicos para voces sanas (≤1% para jitter y ≤3–5% para shimmer), permitiendo evaluar la estabilidad de la voz de los participantes
 
-### Parte C: Análisis Comparativo 
-La frecuencia fundamental es el componente principal que define la altura tonal de la voz. En los resultados obtenidos se evidencia que los hombres presentan una frecuencia entre 97,38 Hz y 126,31 Hz, mientras que las mujeres se encuentran en un rango cercano a los 180 Hz. Esto concuerda con la literatura, que indica que las voces masculinas suelen tener una frecuencia más baja debido a la fisiología de las cuerdas vocales, las cuales son más largas que las femeninas, lo que reduce la frecuencia de vibración y genera sonidos más graves. Además, los órganos de fonación, resonancia y articulación son, en promedio, de mayor tamaño en los hombres, actuando como una caja de resonancia más amplia que favorece la amplificación de las frecuencias bajas.
+### Parte C: Análisis comparativo y conclusiones
+- Se evidencia que los hombres presentan una frecuencia fundamental entre 97,38 Hz y 126,31 Hz, mientras que las mujeres se encuentran en un rango cercano a los 180 Hz. Esto concuerda con la literatura, que indica que las voces masculinas suelen tener una frecuencia más baja debido a la fisiología de las cuerdas vocales, las cuales son más largas que las femeninas, lo que reduce la frecuencia de vibración y genera sonidos más graves. Además, los órganos de fonación, resonancia y articulación son, en promedio, de mayor tamaño en los hombres, actuando como una caja de resonancia más amplia que favorece la amplificación de las frecuencias bajas.
+  
+- El hecho de que la frecuencia media y el brillo sean iguales está relacionado con la definición de ambas magnitudes, ya que el brillo, o centroide espectral, representa el “centro de masa” del espectro, indicando la frecuencia promedio de la señal.
 
+- Las mujeres presentan un brillo mayor en comparación con los hombres. Un centroide espectral más alto se traduce en un timbre percibido como más agudo, lo cual es un rasgo característico de la voz femenina.
+
+- 
 
 
 
