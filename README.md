@@ -23,8 +23,7 @@ silencios o artefactos. Mediante la aplicación de la Transformada de Fourier, s
 su frecuencia fundamental, frecuencia media, brillo e intensidad.
 
 ![Diagrama de flujo del código](Diagrama.jpeg)
-
-#### Resultados obtenidos
+### Resultados obtenidos
 
 #### Hombre 1
 <img src="H11.jpeg" width="350"><img src="H12.jpeg" width="350"> <img src="H13.jpeg" width="350"><img src="H14.jpeg" width="350">
@@ -34,6 +33,17 @@ su frecuencia fundamental, frecuencia media, brillo e intensidad.
 
 #### Hombre 3
 <img src="H31.jpeg" width="350"><img src="H32.jpeg" width="350"> <img src="H33.jpeg" width="350"><img src="H34.jpeg" width="350">
+
+#### Mujer 1
+<img src="M11.jpeg" width="350"><img src="M12.jpeg" width="350"> <img src="M13.jpeg" width="350"><img src="M14.jpeg" width="350">
+
+#### Mujer 2
+<img src="M21.jpeg" width="350"><img src="M22.jpeg" width="350"> <img src="M23.jpeg" width="350"><img src="M24.jpeg" width="350">
+
+#### Mujer 3
+<img src="M31.jpeg" width="350"><img src="M32.jpeg" width="350"> <img src="M33.jpeg" width="350"><img src="M34.jpeg" width="350">
+
+
 
 |Archivo     | F0 (Hz) | Frec media (Hz) | Brillo (Hz) | Energia (J)|
 |------------|---------|-----------------|-------------|--------|
