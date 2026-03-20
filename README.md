@@ -22,6 +22,8 @@ los archivos en formato .wav. Posteriormente, las señales se importaron a Pytho
 silencios o artefactos. Mediante la aplicación de la Transformada de Fourier, se obtuvieron los espectros de magnitud para identificar visual y numéricamente los picos de frecuencia, reportando para cada señal 
 su frecuencia fundamental, frecuencia media, brillo e intensidad.
 
+![Diagrama de flujo del código](Diagrama.jpeg)
+
 #### Resultados obtenidos
 |Archivo     | F0 (Hz) | Frec media (Hz) | Brillo (Hz) | Energia (J)|
 |------------|---------|-----------------|-------------|--------|
@@ -77,7 +79,7 @@ Los resultados se compararon con los rangos típicos para voces sanas (≤1% par
 
 ```
 
-![Diagrama de flujo del código](2ParteA.png)
+
 
 
 </div>
