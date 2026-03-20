@@ -22,7 +22,7 @@ los archivos en formato .wav. Posteriormente, las señales se importaron a Pytho
 silencios o artefactos. Mediante la aplicación de la Transformada de Fourier, se obtuvieron los espectros de magnitud para identificar visual y numéricamente los picos de frecuencia, reportando para cada señal 
 su frecuencia fundamental, frecuencia media, brillo e intensidad.
 
-### resultados obtenidos
+#### Resultados obtenidos
 |Archivo     | F0 (Hz) | Frec media (Hz) | Brillo (Hz) | Energia (J)|
 |------------|---------|-----------------|-------------|--------|
 |hombre1.wav | 97.34   | 367.26          | 367.26      | 4165.74|
@@ -31,7 +31,10 @@ su frecuencia fundamental, frecuencia media, brillo e intensidad.
 |mujer1.wav  | 69.49   | 454.73          | 454.73      | 4512.75|
 |mujer2.wav  | 180.05  | 544.49          | 544.49      | 2111.32|
 |mujer3.wav  | 180.08  | 475.11          | 475.11      | 3594.31|
-![Diagrama de flujo del código]
+
+```python
+
+```
 
 ### Parte B: Medición de Estabilidad Vocal (Jitter y Shimmer)
 Para profundizar en el análisis, se seleccionaron grabaciones representativas de cada género y se aplicó un filtro pasa-banda específico (80–400 Hz para hombres y 150–500 Hz para mujeres) 
@@ -39,9 +42,7 @@ con el fin de eliminar ruidos no deseados. Se procedió a detectar los periodos 
 Los resultados se compararon con los rangos típicos para voces sanas (≤1% para jitter y ≤3–5% para shimmer), permitiendo evaluar la estabilidad de la voz de los participantes
 
 ### Parte C: Análisis Comparativo 
-Finalmente, se realizó una comparación sistemática de los resultados obtenidos. Se analizaron las diferencias en la frecuencia fundamental y otros términos como el brillo y la intensidad 
-entre voces masculinas y femeninas, buscando explicaciones desde la fisiología humana para justificar estos hallazgos. Esta etapa permitió reflexionar sobre la 
-utilidad clínica de estas herramientas, especialmente en la evaluación de la variabilidad vocal y su potencial uso en diagnósticos biomédicos
+La frecuencia fundamental es el componente principal que define la altura tonal de la voz. En los resultados obtenidos se evidencia que los hombres presentan una frecuencia entre 97,38 Hz y 126,31 Hz, mientras que las mujeres se encuentran en un rango cercano a los 180 Hz. Esto concuerda con la literatura, que indica que las voces masculinas suelen tener una frecuencia más baja debido a la fisiología de las cuerdas vocales, las cuales son más largas que las femeninas, lo que reduce la frecuencia de vibración y genera sonidos más graves. Además, los órganos de fonación, resonancia y articulación son, en promedio, de mayor tamaño en los hombres, actuando como una caja de resonancia más amplia que favorece la amplificación de las frecuencias bajas.
 
 
 
