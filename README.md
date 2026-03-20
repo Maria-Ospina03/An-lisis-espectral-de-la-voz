@@ -35,7 +35,7 @@ su frecuencia fundamental, frecuencia media, brillo e intensidad.
 |mujer2.wav  | 180.05  | 544.49          | 544.49      | 2111.32|
 |mujer3.wav  | 180.08  | 475.11          | 475.11      | 3594.31|
 
-<img src="M11" width="300">
+<img src="M11.jpeg" width="200"> <img src="M12.jpeg" width="200"> <img src="M13.jpeg" width="200"> <img src="M14.jpeg" width="200">
 
 ```python
 # Frecuencia fundamental
