@@ -85,6 +85,17 @@ Para profundizar en el análisis, se seleccionaron grabaciones representativas d
 con el fin de eliminar ruidos no deseados. Se procedió a detectar los periodos de vibración y los picos de amplitud en cada ciclo para calcular el jitter relativo y el shimmer relativo. 
 Los resultados se compararon con los rangos típicos para voces sanas (≤1% para jitter y ≤3–5% para shimmer), permitiendo evaluar la estabilidad de la voz de los participantes
 
+Dandonos resultados tal que asi:
+
+Archivo            | Jitter_abs | Jitter_rel(%) | Shimmer_abs | Shimmer_rel(%)
+------------------------------------------------------------------------------
+hombre1.wav | 0.000189  | 2.7456           | 0.026493         | 11.4204
+hombre2.wav | 0.000144  | 2.2062           | 0.023984         | 10.0510
+hombre3.wav | 0.000291  | 4.7745           | 0.031108         | 13.7284
+mujer1.wav    | 0.000067  | 1.6642            | 0.012465         | 8.1629
+mujer2.wav    | 0.000047  | 1.0716            | 0.004804         | 4.0627
+mujer3.wav    | 0.000061  | 1.3757            | 0.006769         | 4.2687
+
 ### Parte C: Análisis comparativo y conclusiones
 - Se evidencia que los hombres presentan una frecuencia fundamental entre 97,38 Hz y 126,31 Hz, mientras que las mujeres se encuentran en un rango cercano a los 180 Hz. Esto concuerda con la literatura, que indica que las voces masculinas suelen tener una frecuencia más baja debido a la fisiología de las cuerdas vocales, las cuales son más largas que las femeninas, lo que reduce la frecuencia de vibración y genera sonidos más graves. Además, los órganos de fonación, resonancia y articulación son, en promedio, de mayor tamaño en los hombres, actuando como una caja de resonancia más amplia que favorece la amplificación de las frecuencias bajas.
   
